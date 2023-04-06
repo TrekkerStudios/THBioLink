@@ -1,7 +1,7 @@
 # THBioLink
-## by Trekker Holdings, using [ottomated/create-o7-app](https://github.com/ottomated/create-o7-app)
+### by Trekker Holdings, using `[ottomated/create-o7-app](https://github.com/ottomated/create-o7-app)`
 
-## [Live example on my own site](https://pupdad.xyz)
+### [Live example on my own site](https://pupdad.xyz)
 ---
 ### Why?
 I wanted to make a custom link-in-bio site so I didn't have to rely on services like Linktree or Unfold. Previously I had done this with a static site, but would have to redeploy/reupload files every time I made a change. I wanted it to instead utilize a SQL-style backend to allow for it to dynamically update links.
