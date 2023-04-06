@@ -4,7 +4,7 @@ const { join } = require('node:path');
 require('dotenv').config();
 
 async function generate() {
-	const { DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_HOST, DATABASE_NAME } =
+	const { DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_HOST, DATABASE_NAME, DATABASE_URL } =
 		process.env;
 	if (
 		!DATABASE_USERNAME ||
@@ -20,10 +20,10 @@ async function generate() {
 
 	const logger = new Logger(2);
 
-	const databaseUrl = `mysql://${DATABASE_USERNAME}:${DATABASE_PASSWORD}@${DATABASE_HOST}/${DATABASE_NAME}?ssl={"rejectUnauthorized":true}`;
+	const databaseUrl = DATABASE_URL;
 
 	const dialectManager = new DialectManager();
-	const dialect = dialectManager.getDialect('mysql');
+	const dialect = dialectManager.getDialect('postgres');
 
 	const db = await dialect.introspector.connect({
 		connectionString: databaseUrl,
