@@ -45,3 +45,6 @@ It should also generate the code for Kysely, but if you run into issues try:
 ```
 node kysely-codegen
 ```
+
+### Default names
+By default the names of the tables queried are `socials` and `links` respectively. You can change that in `./src/routes/api/fetchPG.ts`
