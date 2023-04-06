@@ -1,5 +1,5 @@
 # THBioLink
-### by Trekker Holdings, using `[ottomated/create-o7-app](https://github.com/ottomated/create-o7-app)`
+### by Trekker Holdings, using [ottomated/create-o7-app](https://github.com/ottomated/create-o7-app)
 
 ### [Live example on my own site](https://pupdad.xyz)
 ---
