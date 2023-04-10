@@ -15,6 +15,9 @@ All you need to know is if you want a basic link-in-bio site you can host yourse
 ### This is an inefficient implementation of (insert function here).
 I'm still quite new to web development beyond standard HTML so please don't judge my code too harshly, I know it probably sucks. If you catch something weird, make a pull request, I'd love to give it a look so I can learn!
 
+### What's next?
+Eventually I want to implement a front-end for interacting with/managing the database in a user-friendly way. In essence I'm recreating the Linktree experience but in a self-hosted manner so you have full control. Is it sorta "reinventing the wheel?" Perhaps. But I'm having fun doing it so I don't care.
+
 ---
 # Nerd stuff to get it working
 
