@@ -35,8 +35,8 @@ DATABASE_USERNAME=postgres
 DATABASE_PASSWORD=notarealpassword
 DATABASE_NAME=postgres
 
-DIRECT_URL='postgresql://${DATABASE_USERNAME}:${DATABASE_PASSWORD}@${DATABASE_HOST}/${DATABASE_NAME}?sslaccept=string'
-DATABASE_URL='postgresql://${DATABASE_USERNAME}:${DATABASE_PASSWORD}@${DATABASE_HOST}/${DATABASE_NAME}?pgbouncer=true'
+DIRECT_URL='postgres://${DATABASE_USERNAME}:${DATABASE_PASSWORD}@${DATABASE_HOST}/${DATABASE_NAME}?sslaccept=string'
+DATABASE_URL='postgres://${DATABASE_USERNAME}:${DATABASE_PASSWORD}@${DATABASE_HOST}/${DATABASE_NAME}?pgbouncer=true'
 ```
 
 ### Generate Prisma schema & generate Kysely code
