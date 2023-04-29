@@ -1,0 +1,46 @@
+{
+	"name": "pupdad-thbl",
+	"version": "2.1.0",
+	"type": "module",
+	"scripts": {
+		"lint": "eslint --max-warnings 0 --fix . && svelte-check",
+		"dev": "vite dev --host",
+		"preview": "vite preview",
+		"build": "vite build"
+	},
+	"dependencies": {
+		"@sveltejs/kit": "^1.8.6",
+		"@tanstack/svelte-query": "^4.24.4",
+		"@trpc/client": "^10.9.1",
+		"@trpc/server": "^10.9.1",
+		"@vercel/edge-config": "^0.1.8",
+		"devalue": "^4.2.3",
+		"dotenv": "^16.0.3",
+		"kv-parse": "workspace:*",
+		"svelte": "^3.55.1",
+		"trpc-svelte-query": "^0.0.2",
+		"vercel": "^28.20.0",
+		"zod": "^3.20.2"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-vercel": "^2.4.1",
+		"@typescript-eslint/eslint-plugin": "^5.50.0",
+		"@typescript-eslint/parser": "^5.50.0",
+		"autoprefixer": "^10.4.13",
+		"eslint": "^8.33.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-svelte": "^2.15.0",
+		"postcss": "^8.4.21",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^2.8.3",
+		"prettier-plugin-svelte": "^2.9.0",
+		"prettier-plugin-tailwindcss": "^0.2.2",
+		"svelte-check": "^3.0.3",
+		"svelte-meta-tags": "^2.7.0",
+		"svelte-preprocess": "^5.0.1",
+		"tailwindcss": "^3.2.4",
+		"typescript": "~4.9.5",
+		"vite": "^4.0.4"
+	}
+}
