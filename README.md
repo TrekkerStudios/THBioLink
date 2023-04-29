@@ -61,7 +61,7 @@ The format for the KV is as follows:
 
     "pupdad_social_ig": {                          // {SITE}_{TYPE}_{IDENTIFIER}
         "id": 0,                                   // ORDER OF APPEARANCE (LEFT->RIGHT)
-        "name": "Instagram",                       // IDENTIFIER FOR ICON (USES [SIMPLE ICONS](https://simpleicons.org/) API)
+        "name": "Instagram",                       // IDENTIFIER FOR ICON (USES SIMPLE ICONS API NAMES)
         "link": "https://www.instagram.com/pupdad" // LINK ON CLICK
     },
 
