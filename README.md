@@ -41,9 +41,9 @@ Eventually I want to implement a front-end for interacting with/managing the KV 
 # Nerd stuff to get it working
 
 ### Install
-Clone the repo and install Turbo, it should walk you through the rest from there
+Clone the repo and install:
 
-```pnpm install turbo --global``` (or in root dir: ```pnpm install turbo```)
+```pnpm install```
 
 ### .env
 Vercel will automatically put the connection string into your project once you link the edge store to your deployment, but for development purposes you'll need to copy the connection string from the dashboard:
