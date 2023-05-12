@@ -27,12 +27,11 @@ I wanted to make a custom link-in-bio site so I didn't have to rely on services 
 All you need to know is if you want a basic link-in-bio site you can host yourself (usually for free if you don't get a ton of traffic) you can set up a Vercel account and get this code working fairly quickly.
 
 ### This is an inefficient/slow/generally dumb implementation of (insert function here).
-I know, I'm still new to this whole "javascript" thing. I'm gonna keep chipping away at this codebase to make it more fleshed-out and (more importantly) faster.
+I know, I'm still new to this whole "typescript" thing. I'm gonna keep chipping away at this codebase to make it more fleshed-out and (more importantly) faster.
 
 ### What's next?
-First, I want to move off serverless and onto the Edge for even faster loads, but first I gotta figure out Cloudflare's Worker system. Vercel has been great so far, don't get me wrong, but their free tier is a bit limiting with Edge stuff.
-
-Eventually I want to implement a front-end for interacting with/managing the KV in a user-friendly way, building what is effectively a open-source/self-hosted Linktree. Is it necessary? Absolutely not. Do I wanna do it anyway? Yes, I don't value my time.
+First, I want to move off Vercel and go to Cloudflare Pages + Upstash because they have better free tiers and better incremental pricing.
+Eventually I want to implement a front-end for interacting with/managing the data store in a user-friendly way, building what is effectively a open-source/self-hosted Linktree. Is it necessary? Absolutely not. Do I wanna do it anyway? Yes, I don't value my time.
 
 
 ---
