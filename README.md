@@ -41,7 +41,8 @@ Clone the repo and install:
 
 ### .env
 Once you make an Upstash database, copy the REST URL and token and put them in your environment:
-```UPSTASH_REDIS_REST_URL = "https://urlfromupsta.sh"
+```
+UPSTASH_REDIS_REST_URL = "https://urlfromupsta.sh"
 UPSTASH_REDIS_REST_TOKEN = "T0K3N_FR0M_UPST@SH"
 ```
 
