@@ -17,7 +17,7 @@
 I wanted to make a custom link-in-bio site so I didn't have to rely on services like Linktree or Unfold. I wanted it to also utilize an easily-editable backend to allow for it to dynamically update links without redeploy.
 
 ### How?
-[Ottomated](https://ottomated.net/) has a great web stack in the [o7-app](https://github.com/ottomated/create-o7-app) that got me interested in learning JS. Previous versions of this project utilized [Supabase](https://github.com/TrekkerStudios/THBioLink/tree/postgres) and [Turbo + Vercel KV](https://github.com/TrekkerStudios/THBioLink/tree/turbo-old), but each was difficult to maintain. v3.0 is essentially a full rewrite using the latest version of o7-app with Svelte 4, along with Upstash for storage and Skeleton for styling.
+[Ottomated](https://ottomated.net/) has a great web stack in the [o7-app](https://github.com/ottomated/create-o7-app) that got me interested in learning JS. Previous versions of this project utilized [Supabase](https://github.com/TrekkerStudios/THBioLink/tree/postgres) and [Turbo + Vercel KV](https://github.com/TrekkerStudios/THBioLink/tree/turbo-old), but each was difficult to maintain in their own right. v3.0 is a full rewrite using the latest version of o7-app with Svelte 4, along with Upstash for storage and Skeleton for styling.
 
 ### What?
 All you need to know is if you want a basic link-in-bio site you can host yourself (usually for free if you don't get a ton of traffic) you can set up accounts on Vercel (or similar) and Upstash and get this code working fairly quickly.
