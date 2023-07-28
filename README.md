@@ -1,6 +1,6 @@
 # THBioLink
 ## Version 3.0
-#### by Trekker Holdings, using [ottomated/create-o7-app](https://github.com/ottomated/create-o7-app)
+#### by Trekker Holdings, using [o7-app](https://github.com/ottomated/create-o7-app)
 
 
 ---
