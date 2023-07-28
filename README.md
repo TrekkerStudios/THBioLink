@@ -48,23 +48,19 @@ UPSTASH_REDIS_REST_TOKEN = "T0K3N_FR0M_UPST@SH"
 ### How to format data
 The TRPC callback will look for the keys described in `page.server.ts` and parse the data into the page expecting an array of JSON objects for each section. Make a JSON object in your database for each of the sections (Socials and Links by default), and format your child objects as follows:
 ```
+// SOCIAL ICON
+
 {
+    "id": 0,                                   // ORDER OF APPEARANCE (LEFT->RIGHT)
+    "name": "Instagram",                       // IDENTIFIER FOR ICON (USES SIMPLE ICONS API NAMES)
+    "link": "https://www.instagram.com/pupdad" // LINK ON CLICK
+},
 
-    // SOCIAL ICON
+// LINK
 
-    {
-        "id": 0,                                   // ORDER OF APPEARANCE (LEFT->RIGHT)
-        "name": "Instagram",                       // IDENTIFIER FOR ICON (USES SIMPLE ICONS API NAMES)
-        "link": "https://www.instagram.com/pupdad" // LINK ON CLICK
-    },
-
-    // LINK
-
-    {
-        "id": 0,                                   // ORDER OF APPEARANCE (FIRST->LAST)
-        "name": "Trekker Holdings",                // BUTTON TEXT
-        "link": "https://trekker.holdings"         // LINK ON CLICK
-    }
-    
+{
+    "id": 0,                                   // ORDER OF APPEARANCE (FIRST->LAST)
+    "name": "Trekker Holdings",                // BUTTON TEXT
+    "link": "https://trekker.holdings"         // LINK ON CLICK
 }
 ```
