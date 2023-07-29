@@ -25,9 +25,6 @@ All you need to know is if you want a basic link-in-bio site you can host yourse
 ### This is an inefficient/slow/generally dumb implementation of (insert function here).
 I'm still new to JS/web dev as a whole. I'm gonna keep chipping away at this codebase as I learn new tricks and improvements.
 
-### What's next?
-Polishing the front-end for updating and modifying the links in Upstash database. I have a "working" version but there's still some bugs.
-
 
 ---
 
@@ -65,3 +62,6 @@ The TRPC callback will look for the keys described in `page.server.ts` and parse
     "link": "https://trekker.holdings"         // LINK ON CLICK
 }
 ```
+
+### Spin up dashboard
+Refer to [this repo](https://github.com/TrekkerStudios/THBLManager) for the custom dashboard built to manage your links, including support for multiple sites.
