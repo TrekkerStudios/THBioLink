@@ -22,11 +22,12 @@
 			<a href="/">
 				<Avatar
 					src="images/profile.jpg"
-					class="w-64 w-fit transition hover:scale-105 hover:duration-300 hover:ease-in-out"
+					class="transition hover:scale-105 hover:duration-300 hover:ease-in-out"
 					rounded="rounded-full"
 					border="border-4 border-surface-300-600-token hover:!border-primary-500"
 					cursor="cursor-pointer"
 					initials="TB"
+					width="w-64"
 				/>
 			</a>
 		</div>
