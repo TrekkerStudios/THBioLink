@@ -41,7 +41,7 @@
 			in:slide={{ delay: 1100, duration: 500 }}
 		>
 			<div class="grid grid-cols-1 gap-2 text-center">
-				<h2 class="h2 font-normal">Tyler</h2>
+				<h2 class="h2 font-normal">THBioLink Demo</h2>
 			</div>
 
 			<div class="logo-cloud grid grid-flow-col gap-1 max-md:grid-rows-2">
