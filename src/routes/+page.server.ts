@@ -39,11 +39,6 @@ export const load: PageServerLoad = async (event) => {
 			"id": "1",
 			"link": "https://trekker.holdings",
 			"name": "Trekker Holdings"
-		},
-		{
-			"id": "0",
-			"link": "https://thmgmtdemo.pages.dev",
-			"name": "Companion Dashboard Demo"
 		}
 	]
 
